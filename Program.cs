@@ -52,11 +52,11 @@ namespace L8
         static void Main(string[] args) //7
         {
             Array_Class<int> array_int = new Array_Class<int>(4);
-            array_int.AddElem(0, 3);
+            array_int.AddElem(0, 99);
             Array_Class<string> array_string = new Array_Class<string>(5);
-            array_string.AddElem(0, " zzz ");
+            array_string.AddElem(0, "lozaniya");
             Array_Class<double> array_double = new Array_Class<double>(6);
-            array_double.AddElem(0, 1.2);
+            array_double.AddElem(0, 9.9);
 
         }
     }

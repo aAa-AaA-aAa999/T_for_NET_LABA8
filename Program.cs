@@ -19,13 +19,13 @@ namespace L8
         {
             array = new T[size];
         }
-        public void AddElem(int index, T item) // 3
+        public void AddElem(int index, T element) // 3
         {
-            array[index] = item;
+            array[index] = element;
         }
-        public void DeleteElem(T item) // 4
+        public void DeleteElem(T element) // 4
         {
-            int index = Array.IndexOf(array, item);
+            int index = Array.IndexOf(array, element);
             if (index > -1)
             {
                 T[] newItem = new T[array.Length - 1];

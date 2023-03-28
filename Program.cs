@@ -57,7 +57,6 @@ namespace L8
             array_string.AddElem(0, "lozaniya");
             Array_Class<double> array_double = new Array_Class<double>(6);
             array_double.AddElem(0, 9.9);
-
         }
     }
 }
